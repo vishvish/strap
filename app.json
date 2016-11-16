@@ -1,8 +1,8 @@
 {
   "name": "Strap",
   "description": "Bootstrap a minimal OS X development system",
-  "website": "https://github.com/mikemcquaid/strap",
-  "repository": "https://github.com/mikemcquaid/strap",
+  "website": "https://github.com/vishvish/strap",
+  "repository": "https://github.com/vishvish/strap",
   "keywords": ["ruby", "strap"],
   "success_url": "/",
   "env": {
