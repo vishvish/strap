@@ -314,6 +314,14 @@ fi
 if [ -f "$HOME/.Brewfile" ]; then
   log "Installing from user Brewfile on GitHub:"
   brew bundle --global
+  cd ~/.dotfiles
+  for i in script/post-bundle script/post-dotfiles; do
+    if [ -f "$i" ] && [ -x "$i" ]; then
+      log "Running post-bundle script from dotfiles $i:"
+      "$i" 2>/dev/null
+      break
+    fi
+  done
   logk
 fi
 
