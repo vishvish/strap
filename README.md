@@ -30,18 +30,18 @@ Replacing [Boxen](https://github.com/boxen/boxen/) in [GitHub](https://github.co
 - Add phone number to security screen message (want to avoid prompting users for information on installation)
 
 ## Usage
-Open https://macos-strap.herokuapp.com/ in your web browser.
+Open https://suckerpunch.herokuapp.com in your web browser.
 
 Instead, to run Strap locally run:
 ```bash
-git clone https://github.com/MikeMcQuaid/strap
+git clone https://github.com/vishvish/strap
 cd strap
 bash bin/strap.sh # or bash bin/strap.sh --debug for more debugging output
 ```
 
 Instead, to run the web application locally run:
 ```bash
-git clone https://github.com/mikemcquaid/strap
+git clone https://github.com/vishvish/strap
 cd strap
 GITHUB_KEY="..." GITHUB_SECRET="..." ./script/server
 ```
@@ -60,8 +60,6 @@ Instead, to deploy to [Heroku](https://www.heroku.com) click:
 
 ## Status
 Stable and in active development.
-
-[![Build Status](https://travis-ci.org/MikeMcQuaid/strap.svg)](https://travis-ci.org/MikeMcQuaid/strap)
 
 ## Contact
 [Mike McQuaid](mailto:mike@mikemcquaid.com)
